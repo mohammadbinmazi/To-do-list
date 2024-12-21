@@ -1,0 +1,82 @@
+body,
+html {
+  margin: 0; /* Ensure no default margins */
+  padding: 0; /* Remove padding to avoid extra space */
+  height: 100%; /* Make the body and html fill the viewport */
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  background-color: rgb(0, 0, 0);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(45, 46, 46);
+  border-radius: 5px;
+}
+h1 {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#add-task-button {
+  background-color: rgb(93, 27, 192);
+  border-radius: 5px;
+  padding: 8px;
+  padding-left: 0;
+  padding-right: 0;
+  color: rgb(255, 255, 255);
+  font-size: medium;
+  border: none;
+}
+#add-task-button:hover {
+  background-color: rgb(62, 15, 99);
+  color: rgb(255, 255, 255);
+  font-size: medium;
+
+  cursor: pointer;
+}
+#todo-input {
+  padding: 10px;
+  background-color: rgb(45, 46, 46);
+  color: aliceblue;
+}
+.todo-task-button {
+  color: rgb(255, 255, 255);
+  background-color: red;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.add-li {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-items: left;
+}
+#todo-list {
+  list-style-type: none;
+  margin-right: 10px;
+  flex: 1; /* Allow the input to take up remaining space */
+  padding: 10px; /* Add padding for better visuals */
+  font-size: 14px;
+}
+.input-container {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  gap: 10px; /* Add spacing between input and button */
+}
+.conto {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  gap: 10px;
+  padding-bottom: 5px;
+}
+.add-li {
+  padding: 5px;
+}
